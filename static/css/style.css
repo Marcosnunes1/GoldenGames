@@ -1,0 +1,293 @@
+html {
+  height: 100%;
+}
+
+small {
+  font-size: 0.7em;
+}
+
+h4 {
+  line-height: normal;
+}
+
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
+}
+body{
+  background-color: rgb(61, 61, 61);
+}
+
+header,
+iframe {
+  width: 100%;
+}
+
+.dark-background {
+  background: rgb(173, 173, 173);
+}
+
+.title-row,
+.copyright-col {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  button.btn.btn-info.float-right {
+    width: 100%;
+  }
+}
+
+p.card-text {
+  font-size: 0.8em;
+}
+
+section {
+  padding: 10px 0px;
+  border-radius: 3px;
+  margin-bottom: 35px;
+}
+
+footer {
+  padding: 30px 0px;
+}
+
+@media (max-width: 767px) {
+  .footer-icon {
+    text-align: center;
+  }
+}
+
+div.carousel-item div.lancamento-poster {
+  text-align: center;
+}
+
+div.carousel-item div.lancamento-poster img {
+  
+  object-fit: fill;
+}
+
+div.container section#section-lancamentos {
+  padding-top: 80px;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse {
+  font-size: 0.9em;
+  line-height: normal;
+}
+
+div#carousel-lancamentos div.carousel-item .lancamento-sinopse strong {
+  font-size: 1.1em;
+}
+
+div#carousel-lancamentos div.carousel-item div.row > div {
+  margin-bottom: 10px;
+}
+
+div#carousel-lancamentos div.carousel-inner {
+  padding-bottom: 30px;
+  min-height: 430px;
+}
+
+@media (min-width: 991px) {
+  div#carousel-lancamentos div.carousel-inner {
+    padding-bottom: 50px;
+  }
+}
+
+div#carousel-lancamentos ol.carousel-indicators .active {
+  background-color: #ffa64d;
+}
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 10%;
+  height: 10px;
+  margin: 5px;
+  border-radius: 0;
+  border: 0;
+  
+}
+
+ol.carousel-indicators li.active {
+  background: yellow;
+}
+#texto-centralizado{
+  margin-left: 40%;
+  white-space: nowrap;
+}
+#text-centralizado{
+  white-space: nowrap;
+}
+#maisjogos{
+  width: 100%;
+  background-color: #ffa64d;
+}
+section#section-destaque {
+  padding-top: 20px;
+}
+.jogo-destaque p{
+  color: #ffffff;
+  font-size: small;
+}
+.jogo-destaque img{
+  margin-bottom: 30px;
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+section#section-lojas div.cards-loja div.col-12 {
+  margin-bottom: 10px;
+}
+
+section#section-lojas div.cards-loja div.card {
+  min-height: 200px;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+}
+#data-pesquisa{
+  font-size: 30px;
+}
+#texto-lojas{
+  color: black;
+}
+.sobre{
+  color: #ffffff;
+}
+section#section-novidades div.sobre-col {
+  line-height: normal;
+  font-size: 0.9em;
+}
+
+section#section-novidades div.novidades-col {
+  margin-bottom: 50px;
+}
+
+.lancamento-poster {
+  padding-bottom: 20px;
+}
+div.container #texto-detalhe{
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  color: #ffffff;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  z-index: 2; 
+}
+div.container #texto-index{
+  color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  position: absolute;
+  
+  margin: 5%;
+  margin-top: 3%;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.5); 
+  border: 3px solid #f1f1f1;
+  z-index: 200; 
+}
+#icone-search{
+  color: #f1f1f1;
+}
+#barra-pesquisa{
+  color: #780000;
+  border-radius: 1rem;
+}
+#imagem-borrada{
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  position: absolute;
+	height: 100%;
+	width: 100%;
+}
+div.container section#section-jogo {
+  padding: 80px 10px 5px;
+  overflow: hidden;
+}
+
+section#section-jogo img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 5rem;
+}
+
+section#section-jogo .lancamento-poster {
+  text-align: center;
+}
+
+.jogo-descricao {
+  font-size: 0.9em;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.jogo-descricao strong {
+  font-size: 1.1em;
+}
+
+.votos {
+  color: black;
+  font-size: 0.7em;
+}
+
+a {
+  color: #ffffff;
+}
+
+.produtoras-row {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (min-width: 991px) {
+  .produtoras-row {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+}
+footer{
+  background-color:  rgb(61, 61, 61);
+}
+div.container section#section-pesquisa {
+  padding: 80px 10px 5px;
+  overflow: hidden;
+}
+
+section#section-pesquisa img {
+  height: auto;
+  min-width: 100%;
+}
+
+.page-item.disabled, .text-info {
+  color: rgb(255, 255, 255) !important;
+}
